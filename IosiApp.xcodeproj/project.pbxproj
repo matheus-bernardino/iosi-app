@@ -16,6 +16,7 @@
 		3D8FC14925F82B7A001388FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D8FC14725F82B7A001388FB /* LaunchScreen.storyboard */; };
 		3D8FC15425F82B7A001388FB /* IosiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FC15325F82B7A001388FB /* IosiAppTests.swift */; };
 		3D8FC15F25F82B7A001388FB /* IosiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FC15E25F82B7A001388FB /* IosiAppUITests.swift */; };
+		3D8FC17125F8394A001388FB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FC17025F8394A001388FB /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		3D8FC15A25F82B7A001388FB /* IosiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IosiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D8FC15E25F82B7A001388FB /* IosiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosiAppUITests.swift; sourceTree = "<group>"; };
 		3D8FC16025F82B7A001388FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D8FC17025F8394A001388FB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		3D8FC13825F82B77001388FB /* IosiApp */ = {
 			isa = PBXGroup;
 			children = (
+				3D8FC16F25F83916001388FB /* Home */,
 				3D8FC13925F82B77001388FB /* AppDelegate.swift */,
 				3D8FC13B25F82B77001388FB /* SceneDelegate.swift */,
 				3D8FC13D25F82B77001388FB /* ViewController.swift */,
@@ -129,6 +132,22 @@
 				3D8FC16025F82B7A001388FB /* Info.plist */,
 			);
 			path = IosiAppUITests;
+			sourceTree = "<group>";
+		};
+		3D8FC16F25F83916001388FB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3D8FC17825F83951001388FB /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3D8FC17825F83951001388FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D8FC17025F8394A001388FB /* HomeViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D8FC17125F8394A001388FB /* HomeViewController.swift in Sources */,
 				3D8FC13E25F82B77001388FB /* ViewController.swift in Sources */,
 				3D8FC14425F82B77001388FB /* IosiApp.xcdatamodeld in Sources */,
 				3D8FC13A25F82B77001388FB /* AppDelegate.swift in Sources */,
