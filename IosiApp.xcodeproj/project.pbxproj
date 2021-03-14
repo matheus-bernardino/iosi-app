@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3D8FC13A25F82B77001388FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FC13925F82B77001388FB /* AppDelegate.swift */; };
 		3D8FC13C25F82B77001388FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FC13B25F82B77001388FB /* SceneDelegate.swift */; };
-		3D8FC13E25F82B77001388FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FC13D25F82B77001388FB /* ViewController.swift */; };
 		3D8FC14125F82B77001388FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D8FC13F25F82B77001388FB /* Main.storyboard */; };
 		3D8FC14425F82B77001388FB /* IosiApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FC14225F82B77001388FB /* IosiApp.xcdatamodeld */; };
 		3D8FC14625F82B7A001388FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D8FC14525F82B7A001388FB /* Assets.xcassets */; };
@@ -17,6 +16,10 @@
 		3D8FC15425F82B7A001388FB /* IosiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FC15325F82B7A001388FB /* IosiAppTests.swift */; };
 		3D8FC15F25F82B7A001388FB /* IosiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FC15E25F82B7A001388FB /* IosiAppUITests.swift */; };
 		3D8FC17125F8394A001388FB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FC17025F8394A001388FB /* HomeViewController.swift */; };
+		3D8FC17F25F982E5001388FB /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FC17E25F982E5001388FB /* HelpViewController.swift */; };
+		3D8FC18425F98615001388FB /* MonitorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FC18325F98615001388FB /* MonitorCollectionViewCell.swift */; };
+		3D8FC19425FD615A001388FB /* ClassCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FC19325FD615A001388FB /* ClassCollectionViewCell.swift */; };
+		3D8FC19925FE684E001388FB /* ChatsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FC19825FE684E001388FB /* ChatsCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +43,6 @@
 		3D8FC13625F82B77001388FB /* IosiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IosiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D8FC13925F82B77001388FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D8FC13B25F82B77001388FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3D8FC13D25F82B77001388FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3D8FC14025F82B77001388FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D8FC14325F82B77001388FB /* IosiApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IosiApp.xcdatamodel; sourceTree = "<group>"; };
 		3D8FC14525F82B7A001388FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +55,10 @@
 		3D8FC15E25F82B7A001388FB /* IosiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosiAppUITests.swift; sourceTree = "<group>"; };
 		3D8FC16025F82B7A001388FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D8FC17025F8394A001388FB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3D8FC17E25F982E5001388FB /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		3D8FC18325F98615001388FB /* MonitorCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitorCollectionViewCell.swift; sourceTree = "<group>"; };
+		3D8FC19325FD615A001388FB /* ClassCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassCollectionViewCell.swift; sourceTree = "<group>"; };
+		3D8FC19825FE684E001388FB /* ChatsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +109,10 @@
 		3D8FC13825F82B77001388FB /* IosiApp */ = {
 			isa = PBXGroup;
 			children = (
+				3D8FC17C25F982A7001388FB /* Ajuda */,
 				3D8FC16F25F83916001388FB /* Home */,
 				3D8FC13925F82B77001388FB /* AppDelegate.swift */,
 				3D8FC13B25F82B77001388FB /* SceneDelegate.swift */,
-				3D8FC13D25F82B77001388FB /* ViewController.swift */,
 				3D8FC13F25F82B77001388FB /* Main.storyboard */,
 				3D8FC14525F82B7A001388FB /* Assets.xcassets */,
 				3D8FC14725F82B7A001388FB /* LaunchScreen.storyboard */,
@@ -146,6 +152,25 @@
 			isa = PBXGroup;
 			children = (
 				3D8FC17025F8394A001388FB /* HomeViewController.swift */,
+				3D8FC19325FD615A001388FB /* ClassCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3D8FC17C25F982A7001388FB /* Ajuda */ = {
+			isa = PBXGroup;
+			children = (
+				3D8FC17D25F982B0001388FB /* View */,
+			);
+			path = Ajuda;
+			sourceTree = "<group>";
+		};
+		3D8FC17D25F982B0001388FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D8FC17E25F982E5001388FB /* HelpViewController.swift */,
+				3D8FC18325F98615001388FB /* MonitorCollectionViewCell.swift */,
+				3D8FC19825FE684E001388FB /* ChatsCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -280,8 +305,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D8FC19425FD615A001388FB /* ClassCollectionViewCell.swift in Sources */,
+				3D8FC18425F98615001388FB /* MonitorCollectionViewCell.swift in Sources */,
+				3D8FC19925FE684E001388FB /* ChatsCollectionViewCell.swift in Sources */,
 				3D8FC17125F8394A001388FB /* HomeViewController.swift in Sources */,
-				3D8FC13E25F82B77001388FB /* ViewController.swift in Sources */,
+				3D8FC17F25F982E5001388FB /* HelpViewController.swift in Sources */,
 				3D8FC14425F82B77001388FB /* IosiApp.xcdatamodeld in Sources */,
 				3D8FC13A25F82B77001388FB /* AppDelegate.swift in Sources */,
 				3D8FC13C25F82B77001388FB /* SceneDelegate.swift in Sources */,

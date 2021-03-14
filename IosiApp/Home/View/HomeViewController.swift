@@ -7,16 +7,34 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
-
+class HomeViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     @IBOutlet weak var dateLabel: UILabel!
+    @IBOutlet weak var perfilPhoto: UIImageView!
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 0
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        return UICollectionViewCell()
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return CGSize(width: 131, height: 106)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        setDate()
+        setCurrentDate()
+        perfilPhotoSetup()
         // Do any additional setup after loading the view.
     }
     
-    func setDate() {
+    func perfilPhotoSetup() {
+        perfilPhoto.layer.cornerRadius = perfilPhoto.frame.height / 2
+    }
+    
+    func setCurrentDate() {
         let date = Date()
         let calendar = Calendar.current
         let requestComponents : Set<Calendar.Component> = [
