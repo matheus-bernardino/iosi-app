@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Chat {
-    var messages: [Message]?
-    var monitorId: String?
+class Chat: Codable {
+    var messages = [Message]()
+    var teste = [String]()
 }

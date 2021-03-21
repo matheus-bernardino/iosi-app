@@ -27,6 +27,7 @@
 		3D8FC1B826002374001388FB /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FC1B726002374001388FB /* Chat.swift */; };
 		3D8FC1C0260025BF001388FB /* ChatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FC1BF260025BF001388FB /* ChatsViewModel.swift */; };
 		3D8FC1C72602BB11001388FB /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FC1C62602BB11001388FB /* Repository.swift */; };
+		3D8FC1CF26056104001388FB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FC1CE26056104001388FB /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		3D8FC1B726002374001388FB /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 		3D8FC1BF260025BF001388FB /* ChatsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsViewModel.swift; sourceTree = "<group>"; };
 		3D8FC1C62602BB11001388FB /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		3D8FC1CE26056104001388FB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				3D8FC1C52602BB03001388FB /* Service */,
-				3D8FC17C25F982A7001388FB /* Ajuda */,
+				3D8FC17C25F982A7001388FB /* Help */,
 				3D8FC16F25F83916001388FB /* Home */,
 				3D8FC13925F82B77001388FB /* AppDelegate.swift */,
 				3D8FC13B25F82B77001388FB /* SceneDelegate.swift */,
@@ -173,14 +175,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		3D8FC17C25F982A7001388FB /* Ajuda */ = {
+		3D8FC17C25F982A7001388FB /* Help */ = {
 			isa = PBXGroup;
 			children = (
 				3D8FC1A426000985001388FB /* Model */,
 				3D8FC19E25FED6DE001388FB /* ViewModel */,
 				3D8FC17D25F982B0001388FB /* View */,
 			);
-			path = Ajuda;
+			path = Help;
 			sourceTree = "<group>";
 		};
 		3D8FC17D25F982B0001388FB /* View */ = {
@@ -216,6 +218,7 @@
 				3D8FC1B726002374001388FB /* Chat.swift */,
 				3D8FC1B2260020B7001388FB /* Message.swift */,
 				3D8FC1AD260013F9001388FB /* Monitor.swift */,
+				3D8FC1CE26056104001388FB /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -362,6 +365,7 @@
 				3D8FC19425FD615A001388FB /* ClassCollectionViewCell.swift in Sources */,
 				3D8FC1AE260013F9001388FB /* Monitor.swift in Sources */,
 				3D8FC1A025FED741001388FB /* HomeViewModel.swift in Sources */,
+				3D8FC1CF26056104001388FB /* User.swift in Sources */,
 				3D8FC18425F98615001388FB /* MonitorCollectionViewCell.swift in Sources */,
 				3D8FC19925FE684E001388FB /* ChatsCollectionViewCell.swift in Sources */,
 				3D8FC1C0260025BF001388FB /* ChatsViewModel.swift in Sources */,

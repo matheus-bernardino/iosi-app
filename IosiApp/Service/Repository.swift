@@ -9,7 +9,95 @@ import Foundation
 import UIKit
 
 class Repository {
-    static let acssess = Repository()
+    static let apiAcssess = Repository()
+    let baseUrl = "https://iosi.herokuapp.com/"
+    func getAllMessages(completion: @escaping (_ result: Result<[Message], Error>)->Void) {
+        let key = "60511bedab4c7e025c6dcb90"
+        if let baseUrl = URL(string: baseUrl) {
+            let url = baseUrl.appendingPathComponent("messages").appendingPathComponent(key)
+            let session = URLSession.shared
+            session.dataTask(with: url) {
+                (Data, URLResponse, error) in
+                if let error = error {
+                    print(error.localizedDescription)
+                    completion(.failure(error))
+                }
+                if let data = Data {
+                    do {
+                        let decoder = JSONDecoder.init()
+                        let messages = try decoder.decode([Message].self, from: data)
+                        completion(.success(messages))
+                    } catch {
+                        print(error.localizedDescription)
+                    }
+                }
+            }.resume()
+        }
+    }
     
+    func getUser(completion: @escaping (_ result: Result<User, Error>)->Void, userId: String) {
+        if let baseUrl = URL(string: baseUrl) {
+            let url = baseUrl.appendingPathComponent("users").appendingPathComponent(userId)
+            let session = URLSession.shared
+            session.dataTask(with: url) {
+                (Data, URLResponse, error) in
+                if let error = error {
+                    print(error.localizedDescription)
+                    completion(.failure(error))
+                }
+                if let data = Data {
+                    do {
+                        let decoder = JSONDecoder.init()
+                        let user = try decoder.decode(User.self, from: data)
+                        completion(.success(user))
+                    } catch {
+                        print(error)
+                    }
+                }
+            }.resume()
+        }
+    }
     
+    func geAllUsers(completion: @escaping (_ result: Result<[User], Error>)->Void, typeOfUser: String = "") {
+        if let baseUrl = URL(string: baseUrl) {
+            var url = baseUrl.appendingPathComponent("users")
+            if typeOfUser != "" {
+                url.appendPathComponent(typeOfUser)
+            }
+            let session = URLSession.shared
+            session.dataTask(with: url) {
+                (Data, URLResponse, error) in
+                if let error = error {
+                    print(error.localizedDescription)
+                    completion(.failure(error))
+                }
+                if let data = Data {
+                    do {
+                        let decoder = JSONDecoder.init()
+                        let users = try decoder.decode([User].self, from: data)
+                        completion(.success(users))
+                    } catch {
+                        print(error)
+                    }
+                }
+            }.resume()
+        }
+    }
+    
+    func getImage(completion: @escaping (_ result: Result<Data, Error>)->Void, stringUrl: String) {
+        guard let url = URL(string: stringUrl) else { return }
+        
+        let session = URLSession.shared
+        session.dataTask(with: url) {
+            (Data, URLResponse, error) in
+            if let error = error {
+                print(error.localizedDescription)
+                completion(.failure(error))
+            }
+            if let data = Data {
+                completion(.success(data))
+            }
+        }.resume()
+    }
 }
+ 

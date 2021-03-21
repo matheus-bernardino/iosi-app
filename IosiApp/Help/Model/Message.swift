@@ -7,8 +7,10 @@
 
 import Foundation
 
-struct Message {
-    var text: String?
-    var author: String?
+class Message: Codable {
+    var _id: String?
+    var chatId: String?
     var dateTime: String?
+    var message: String?
+    var author: String?
 }

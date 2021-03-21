@@ -19,6 +19,10 @@ class HelpViewController: UIViewController {
         collectionView.dataSource = monitorsViewModel
         chatsCollectionView.delegate = chatsViewModel
         chatsCollectionView.dataSource = chatsViewModel
+        chatsViewModel.delegate = self
+        chatsViewModel.getAllMessages()
+        monitorsViewModel.delegate = self
+        monitorsViewModel.getAllProfessors()
         // Do any additional setup after loading the view.
     }
     
@@ -33,4 +37,14 @@ class HelpViewController: UIViewController {
     }
     */
 
+}
+
+extension HelpViewController: ChatsViewModelDelegate, MonitorsViewModelDelegate {
+    func updateMonitors() {
+        collectionView.reloadData()
+    }
+    
+    func updateMessages() {
+        chatsCollectionView.reloadData()
+    }
 }
