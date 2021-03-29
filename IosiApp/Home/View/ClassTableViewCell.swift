@@ -7,8 +7,8 @@
 
 import UIKit
 
-class ClassCollectionViewCell: UICollectionViewCell {
+class ClassTableViewCell: UITableViewCell {
     
-    @IBOutlet weak var classImage: UIImageView!
     @IBOutlet weak var className: UILabel!
+    @IBOutlet weak var classImage: UIImageView!
 }

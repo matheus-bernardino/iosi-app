@@ -18,7 +18,7 @@
 		3D8FC17125F8394A001388FB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FC17025F8394A001388FB /* HomeViewController.swift */; };
 		3D8FC17F25F982E5001388FB /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FC17E25F982E5001388FB /* HelpViewController.swift */; };
 		3D8FC18425F98615001388FB /* MonitorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FC18325F98615001388FB /* MonitorCollectionViewCell.swift */; };
-		3D8FC19425FD615A001388FB /* ClassCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FC19325FD615A001388FB /* ClassCollectionViewCell.swift */; };
+		3D8FC19425FD615A001388FB /* ClassTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FC19325FD615A001388FB /* ClassTableViewCell.swift */; };
 		3D8FC19925FE684E001388FB /* ChatsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FC19825FE684E001388FB /* ChatsCollectionViewCell.swift */; };
 		3D8FC1A025FED741001388FB /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FC19F25FED741001388FB /* HomeViewModel.swift */; };
 		3D8FC1A926001110001388FB /* MonitorsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FC1A826001110001388FB /* MonitorsViewModel.swift */; };
@@ -28,6 +28,7 @@
 		3D8FC1C0260025BF001388FB /* ChatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FC1BF260025BF001388FB /* ChatsViewModel.swift */; };
 		3D8FC1C72602BB11001388FB /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FC1C62602BB11001388FB /* Repository.swift */; };
 		3D8FC1CF26056104001388FB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FC1CE26056104001388FB /* User.swift */; };
+		3D8FC1D82608FEA8001388FB /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FC1D72608FEA8001388FB /* Video.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +66,7 @@
 		3D8FC17025F8394A001388FB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3D8FC17E25F982E5001388FB /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
 		3D8FC18325F98615001388FB /* MonitorCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitorCollectionViewCell.swift; sourceTree = "<group>"; };
-		3D8FC19325FD615A001388FB /* ClassCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassCollectionViewCell.swift; sourceTree = "<group>"; };
+		3D8FC19325FD615A001388FB /* ClassTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassTableViewCell.swift; sourceTree = "<group>"; };
 		3D8FC19825FE684E001388FB /* ChatsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsCollectionViewCell.swift; sourceTree = "<group>"; };
 		3D8FC19F25FED741001388FB /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		3D8FC1A826001110001388FB /* MonitorsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitorsViewModel.swift; sourceTree = "<group>"; };
@@ -75,6 +76,7 @@
 		3D8FC1BF260025BF001388FB /* ChatsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsViewModel.swift; sourceTree = "<group>"; };
 		3D8FC1C62602BB11001388FB /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		3D8FC1CE26056104001388FB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3D8FC1D72608FEA8001388FB /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 		3D8FC16F25F83916001388FB /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				3D8FC1D62608FE95001388FB /* Model */,
 				3D8FC19D25FED6C4001388FB /* ViewModel */,
 				3D8FC17825F83951001388FB /* View */,
 			);
@@ -170,7 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				3D8FC17025F8394A001388FB /* HomeViewController.swift */,
-				3D8FC19325FD615A001388FB /* ClassCollectionViewCell.swift */,
+				3D8FC19325FD615A001388FB /* ClassTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -229,6 +232,14 @@
 				3D8FC1C62602BB11001388FB /* Repository.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		3D8FC1D62608FE95001388FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D8FC1D72608FEA8001388FB /* Video.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,7 +373,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D8FC1B826002374001388FB /* Chat.swift in Sources */,
-				3D8FC19425FD615A001388FB /* ClassCollectionViewCell.swift in Sources */,
+				3D8FC19425FD615A001388FB /* ClassTableViewCell.swift in Sources */,
 				3D8FC1AE260013F9001388FB /* Monitor.swift in Sources */,
 				3D8FC1A025FED741001388FB /* HomeViewModel.swift in Sources */,
 				3D8FC1CF26056104001388FB /* User.swift in Sources */,
@@ -372,6 +383,7 @@
 				3D8FC17125F8394A001388FB /* HomeViewController.swift in Sources */,
 				3D8FC17F25F982E5001388FB /* HelpViewController.swift in Sources */,
 				3D8FC14425F82B77001388FB /* IosiApp.xcdatamodeld in Sources */,
+				3D8FC1D82608FEA8001388FB /* Video.swift in Sources */,
 				3D8FC1C72602BB11001388FB /* Repository.swift in Sources */,
 				3D8FC1A926001110001388FB /* MonitorsViewModel.swift in Sources */,
 				3D8FC1B3260020B7001388FB /* Message.swift in Sources */,

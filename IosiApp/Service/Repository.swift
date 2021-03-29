@@ -99,5 +99,52 @@ class Repository {
             }
         }.resume()
     }
+    
+    func getVideoById(completion: @escaping (_ result: Result<Video, Error>)->Void, videoId: String) {
+        if let baseUrl = URL(string: baseUrl) {
+            var url = baseUrl.appendingPathComponent("videos")
+            url.appendPathComponent(videoId)
+            let session = URLSession.shared
+            session.dataTask(with: url) {
+                (Data, URLResponse, error) in
+                if let error = error {
+                    print(error.localizedDescription)
+                    completion(.failure(error))
+                }
+                if let data = Data {
+                    do {
+                        let decoder = JSONDecoder.init()
+                        let video = try decoder.decode(Video.self, from: data)
+                        completion(.success(video))
+                    } catch {
+                        print(error)
+                    }
+                }
+            }.resume()
+        }
+    }
+    
+    func getVideos(completion: @escaping (_ result: Result<[Video], Error>)->Void) {
+        if let baseUrl = URL(string: baseUrl) {
+            let url = baseUrl.appendingPathComponent("videos")
+            let session = URLSession.shared
+            session.dataTask(with: url) {
+                (Data, URLResponse, error) in
+                if let error = error {
+                    print(error.localizedDescription)
+                    completion(.failure(error))
+                }
+                if let data = Data {
+                    do {
+                        let decoder = JSONDecoder.init()
+                        let videos = try decoder.decode([Video].self, from: data)
+                        completion(.success(videos))
+                    } catch {
+                        print(error)
+                    }
+                }
+            }.resume()
+        }
+    }
 }
  

@@ -12,7 +12,6 @@ protocol MonitorsViewModelDelegate: class {
 }
 
 class MonitorsViewModel: NSObject {
-//    var monitors = [Monitor(photoUrl: "https://cdn4.buysellads.net/uu/1/72681/1600362731-MC_Carbon_Logo_260x200.png", name: "Monitor", id: 1), Monitor(photoUrl: "https://cdn4.buysellads.net/uu/1/72681/1600362731-MC_Carbon_Logo_260x200.png", name: "Monitor", id: 2), Monitor(photoUrl: "https://cdn4.buysellads.net/uu/1/72681/1600362731-MC_Carbon_Logo_260x200.png", name: "Monitor", id: 3), Monitor(photoUrl: "https://cdn4.buysellads.net/uu/1/72681/1600362731-MC_Carbon_Logo_260x200.png", name: "Monitor", id: 4)]
     weak var delegate: MonitorsViewModelDelegate?
     private var professors: [User] = []
     private var photos: [String: Data] = [:]
@@ -34,7 +33,7 @@ class MonitorsViewModel: NSObject {
             case .failure(let error):
                 print(error.localizedDescription)
             }
-        })
+       }, typeOfUser: "professors")
     }
     
     func getAllProfessorsPhotos () {
@@ -70,19 +69,6 @@ extension MonitorsViewModel:  UICollectionViewDelegate, UICollectionViewDataSour
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "monitorCell", for: indexPath) as? MonitorCollectionViewCell else { return UICollectionViewCell() }
-//        DispatchQueue.global(qos: .background) .async {
-//            guard let photoUrl = self.monitors[indexPath.item].photoUrl, let imageUrl = URL(string: photoUrl) else {
-//                return
-//            }
-//            do {
-//                let data = try Data(contentsOf: imageUrl)
-//                DispatchQueue.main.async {
-//                    cell.photo.image = UIImage(data: data)
-//                }
-//            } catch let error {
-//                print(error.localizedDescription)
-//            }
-//        }
         cell.name.text = professors[indexPath.item].name
         if let professorId = professors[indexPath.item]._id, let photo = photos[professorId] {
             cell.photo.image = UIImage(data: photo)
