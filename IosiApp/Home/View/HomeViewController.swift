@@ -12,12 +12,13 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var perfilPhoto: UIImageView!
     @IBOutlet weak var nextVideoImage: UIImageView!
     @IBOutlet weak var nextVideoLabel: UILabel!
-    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var collectionView: UICollectionView!
     private let homeViewModel = HomeViewModel()
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.delegate = homeViewModel
-        tableView.dataSource = homeViewModel
+        collectionView.delegate = homeViewModel
+        collectionView.dataSource = homeViewModel
+
         dateLabel.text = homeViewModel.setCurrentDate()
         perfilPhotoSetup()
         homeViewModel.delegate = self
@@ -44,7 +45,7 @@ class HomeViewController: UIViewController {
 
 extension HomeViewController: HomeViewModelDelegate  {
     func updateVideoClasses() {
-        tableView.reloadData()
+        collectionView.reloadData()
     }
     
     func updateNextVideoTitle(title: String) {

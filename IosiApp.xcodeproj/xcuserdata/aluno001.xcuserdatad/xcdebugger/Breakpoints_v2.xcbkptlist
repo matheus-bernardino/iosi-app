@@ -148,5 +148,597 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "79939B05-B2D8-4547-BE65-2FDF275DDDC4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IosiApp/Help/ViewModel/ChatsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "getAllChatsFromUser()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CD25EB5F-3C2F-4136-BE35-ED0261260FE1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IosiApp/Help/ViewModel/ChatsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "getAllChatsFromUser()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "797D9C40-F676-4DEB-A9F1-70DC4DAEA36C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IosiApp/Help/ViewModel/ChatsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "getAllChatsFromUser()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "797D9C40-F676-4DEB-A9F1-70DC4DAEA36C - 4c615ba531ca527c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IosiApp.ChatsViewModel.getAllChatsFromUser() -&gt; ()"
+                  moduleName = "IosiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aluno001/Documents/Xcode%20Projects/IosiApp/IosiApp/Help/ViewModel/ChatsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "30">
+               </Location>
+               <Location
+                  uuid = "797D9C40-F676-4DEB-A9F1-70DC4DAEA36C - 86f34baac14797db"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;IosiApp.Chat&gt;, Swift.Error&gt;) -&gt; () in IosiApp.ChatsViewModel.getAllChatsFromUser() -&gt; ()"
+                  moduleName = "IosiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aluno001/Documents/Xcode%20Projects/IosiApp/IosiApp/Help/ViewModel/ChatsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "163">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "61C02961-60D2-4335-B3B7-3EE7F92A95D7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IosiApp/Help/ViewModel/ChatsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "getAllMessages()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "61C02961-60D2-4335-B3B7-3EE7F92A95D7 - 3aec6de645febf1a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IosiApp.ChatsViewModel.getAllMessages() -&gt; ()"
+                  moduleName = "IosiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aluno001/Documents/Xcode%20Projects/IosiApp/IosiApp/Help/ViewModel/ChatsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "501">
+               </Location>
+               <Location
+                  uuid = "61C02961-60D2-4335-B3B7-3EE7F92A95D7 - d6278c32f90cfce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;IosiApp.Message&gt;, Swift.Error&gt;) -&gt; () in IosiApp.ChatsViewModel.getAllMessages() -&gt; ()"
+                  moduleName = "IosiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aluno001/Documents/Xcode%20Projects/IosiApp/IosiApp/Help/ViewModel/ChatsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "289">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1B28116B-971B-4F4A-9560-7E9DCE768A38"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IosiApp/Help/ViewModel/ChatsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "getAllMessages()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3E0CFBDC-5055-48D3-A399-8A0F069F4460"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IosiApp/Help/ViewModel/ChatsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "getAllMessages()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "85E0DA98-37DD-4EE2-83AC-64A2E3CB7703"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IosiApp/Help/ViewModel/ChatsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "getAllMessages()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "85E0DA98-37DD-4EE2-83AC-64A2E3CB7703 - d6278c32f90cc38"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;IosiApp.Message&gt;, Swift.Error&gt;) -&gt; () in IosiApp.ChatsViewModel.getAllMessages() -&gt; ()"
+                  moduleName = "IosiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aluno001/Documents/Xcode%20Projects/IosiApp/IosiApp/Help/ViewModel/ChatsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "1514">
+               </Location>
+               <Location
+                  uuid = "85E0DA98-37DD-4EE2-83AC-64A2E3CB7703 - 69f693009e0c7399"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Result&lt;Swift.Array&lt;IosiApp.Message&gt;, Swift.Error&gt;) -&gt; () in IosiApp.ChatsViewModel.getAllMessages() -&gt; ()"
+                  moduleName = "IosiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aluno001/Documents/Xcode%20Projects/IosiApp/IosiApp/Help/ViewModel/ChatsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "77">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2A66F635-C1B2-4645-9443-C49DEB4B6F13"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IosiApp/Help/ViewModel/ChatsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "getAllChatUsersNames(chatId:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2A66F635-C1B2-4645-9443-C49DEB4B6F13 - fc2d5225ae529477"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IosiApp.ChatsViewModel.getAllChatUsersNames(chatId: Swift.String) -&gt; ()"
+                  moduleName = "IosiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aluno001/Documents/Xcode%20Projects/IosiApp/IosiApp/Help/ViewModel/ChatsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "756">
+               </Location>
+               <Location
+                  uuid = "2A66F635-C1B2-4645-9443-C49DEB4B6F13 - e94ccad614b73944"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;IosiApp.User, Swift.Error&gt;) -&gt; () in IosiApp.ChatsViewModel.getAllChatUsersNames(chatId: Swift.String) -&gt; ()"
+                  moduleName = "IosiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aluno001/Documents/Xcode%20Projects/IosiApp/IosiApp/Help/ViewModel/ChatsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "289">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1C5F11AF-9109-4176-A5FD-CBA0B9756345"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IosiApp/Help/ViewModel/ChatsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "getAllChatUsersNames(chatId:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "548A3FA7-408B-44FE-B57C-0474F113A92C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IosiApp/Help/ViewModel/ChatsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "getAllChatUsersNames(chatId:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "44AB86FD-8818-4A1D-9060-1B81554E1951"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IosiApp/Help/ViewModel/ChatsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "getAllChatUsersNames(chatId:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "44AB86FD-8818-4A1D-9060-1B81554E1951 - e94ccad614b73bdf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;IosiApp.User, Swift.Error&gt;) -&gt; () in IosiApp.ChatsViewModel.getAllChatUsersNames(chatId: Swift.String) -&gt; ()"
+                  moduleName = "IosiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aluno001/Documents/Xcode%20Projects/IosiApp/IosiApp/Help/ViewModel/ChatsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "1506">
+               </Location>
+               <Location
+                  uuid = "44AB86FD-8818-4A1D-9060-1B81554E1951 - c5c08f6bf4ceddfa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Result&lt;IosiApp.User, Swift.Error&gt;) -&gt; () in IosiApp.ChatsViewModel.getAllChatUsersNames(chatId: Swift.String) -&gt; ()"
+                  moduleName = "IosiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aluno001/Documents/Xcode%20Projects/IosiApp/IosiApp/Help/ViewModel/ChatsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "77">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "47C706C9-EF7C-4631-B96D-548355FAF6E3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IosiApp/Help/ViewModel/ChatsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "getAllChatUsersPhotos()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "47C706C9-EF7C-4631-B96D-548355FAF6E3 - b9d49d9c99789cd7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IosiApp.ChatsViewModel.getAllChatUsersPhotos() -&gt; ()"
+                  moduleName = "IosiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aluno001/Documents/Xcode%20Projects/IosiApp/IosiApp/Help/ViewModel/ChatsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "93"
+                  endingLineNumber = "93"
+                  offsetFromSymbolStart = "759">
+               </Location>
+               <Location
+                  uuid = "47C706C9-EF7C-4631-B96D-548355FAF6E3 - 1ed5e808c63f0c01"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Foundation.Data, Swift.Error&gt;) -&gt; () in IosiApp.ChatsViewModel.getAllChatUsersPhotos() -&gt; ()"
+                  moduleName = "IosiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aluno001/Documents/Xcode%20Projects/IosiApp/IosiApp/Help/ViewModel/ChatsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "312">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "138B8AD5-1B64-4339-8EA9-E8795DCFD0D1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IosiApp/Help/ViewModel/ChatsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "getAllChatUsersPhotos()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "863BB835-E409-4D32-8B79-A388C5FE485F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IosiApp/Help/ViewModel/ChatsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "getAllChatUsersPhotos()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9D0EED02-1E89-4F36-9751-5BFB23E375C4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IosiApp/Help/ViewModel/ChatsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "getAllChatUsersPhotos()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9D0EED02-1E89-4F36-9751-5BFB23E375C4 - 1ed5e808c63f0d4f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Foundation.Data, Swift.Error&gt;) -&gt; () in IosiApp.ChatsViewModel.getAllChatUsersPhotos() -&gt; ()"
+                  moduleName = "IosiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aluno001/Documents/Xcode%20Projects/IosiApp/IosiApp/Help/ViewModel/ChatsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "104"
+                  endingLineNumber = "104"
+                  offsetFromSymbolStart = "1559">
+               </Location>
+               <Location
+                  uuid = "9D0EED02-1E89-4F36-9751-5BFB23E375C4 - 1fd0e2a3f8739b76"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Result&lt;Foundation.Data, Swift.Error&gt;) -&gt; () in IosiApp.ChatsViewModel.getAllChatUsersPhotos() -&gt; ()"
+                  moduleName = "IosiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aluno001/Documents/Xcode%20Projects/IosiApp/IosiApp/Help/ViewModel/ChatsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "77">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3C50299D-FBD9-4124-BF96-BCC89458773D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IosiApp/Help/ViewModel/ChatsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "collectionView(_:numberOfItemsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D67253AB-684A-4A9D-B49C-C33FC32456F8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IosiApp/Help/ViewModel/ChatsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "collectionView(_:numberOfItemsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE5889B8-EEF3-4188-9566-C94FDE66AADD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IosiApp/Help/ViewModel/ChatsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EFC7B13E-1F28-4D08-8980-50875F25AE98"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IosiApp/Help/ViewModel/ChatsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EFC7B13E-1F28-4D08-8980-50875F25AE98 - 9eb70c6d7c53041b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IosiApp.ChatsViewModel.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "IosiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aluno001/Documents/Xcode%20Projects/IosiApp/IosiApp/Help/ViewModel/ChatsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "130"
+                  endingLineNumber = "130"
+                  offsetFromSymbolStart = "2531">
+               </Location>
+               <Location
+                  uuid = "EFC7B13E-1F28-4D08-8980-50875F25AE98 - 9eb70c6d7c53041b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IosiApp.ChatsViewModel.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "IosiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aluno001/Documents/Xcode%20Projects/IosiApp/IosiApp/Help/ViewModel/ChatsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "130"
+                  endingLineNumber = "130"
+                  offsetFromSymbolStart = "2985">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A53BC5C1-F19E-4E4B-B0FA-F95CC1841D5E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IosiApp/Help/ViewModel/ChatsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "154"
+            endingLineNumber = "154"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AF825A7A-FEF9-45A8-9F23-E9D49E27498F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IosiApp/Help/ViewModel/ChatsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "186"
+            endingLineNumber = "186"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

@@ -20,7 +20,7 @@ class HelpViewController: UIViewController {
         chatsCollectionView.delegate = chatsViewModel
         chatsCollectionView.dataSource = chatsViewModel
         chatsViewModel.delegate = self
-        chatsViewModel.getAllMessages()
+        chatsViewModel.getAllChatsFromUser()
         monitorsViewModel.delegate = self
         monitorsViewModel.getAllProfessors()
         // Do any additional setup after loading the view.

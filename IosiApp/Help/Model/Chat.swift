@@ -8,6 +8,7 @@
 import Foundation
 
 class Chat: Codable {
-    var messages = [Message]()
-    var teste = [String]()
+    var _id: String?
+    var professorId: String?
+    var studentId: String?
 }

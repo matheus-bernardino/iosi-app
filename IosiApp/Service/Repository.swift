@@ -11,8 +11,32 @@ import UIKit
 class Repository {
     static let apiAcssess = Repository()
     let baseUrl = "https://iosi.herokuapp.com/"
-    func getAllMessages(completion: @escaping (_ result: Result<[Message], Error>)->Void) {
-        let key = "60511bedab4c7e025c6dcb90"
+    
+    func getAllChatsFromUser(completion: @escaping (_ result: Result<[Chat], Error>)->Void) {
+        let key = "605119ae977f59b9e2b494a4"
+        if let baseUrl = URL(string: baseUrl) {
+            let url = baseUrl.appendingPathComponent("chats").appendingPathComponent(key)
+            let session = URLSession.shared
+            session.dataTask(with: url) {
+                (Data, URLResponse, error) in
+                if let error = error {
+                    print(error.localizedDescription)
+                    completion(.failure(error))
+                }
+                if let data = Data {
+                    do {
+                        let decoder = JSONDecoder.init()
+                        let chats = try decoder.decode([Chat].self, from: data)
+                        completion(.success(chats))
+                    } catch {
+                        print(error.localizedDescription)
+                    }
+                }
+            }.resume()
+        }
+    }
+    
+    func getAllMessages(completion: @escaping (_ result: Result<[Message], Error>)->Void, key: String) {
         if let baseUrl = URL(string: baseUrl) {
             let url = baseUrl.appendingPathComponent("messages").appendingPathComponent(key)
             let session = URLSession.shared
